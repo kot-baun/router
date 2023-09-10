@@ -1,5 +1,5 @@
 <template>
-  <sidebar-menu :menu="menu" />
+    <sidebar-menu :menu="menu" />
 </template>
 
 <script>
@@ -11,19 +11,18 @@
 // ]
 
 export default {
-  data() {
-    return {
-      menu: [
-        { header: 'Main Navigation', hiddenOnCollapse: true },
-        { href: '/', title: 'Dashboard', icon: 'pi pi-user' },
-        { href: '/first', title: 'first' },
-        { href: '/second', title: 'second' },
-        { href: '/third', title: 'third' },
-
-        { href: '/about', title: 'Charts', icon: 'pi pi-chart-bar' }
-
-      ]
-    }
-  }
-}
+    data() {
+        return {
+            menu: [
+                { header: 'Main Navigation', hiddenOnCollapse: true },
+                { href: '/', title: 'Dashboard', icon: 'pi pi-user' },
+                { href: '/first', title: 'first' },
+                { href: '/second', title: 'second' },
+                { href: '/third', title: 'third' },
+                { href: '/fourth', title: 'fourth' },
+                { href: '/about', title: 'Charts', icon: 'pi pi-chart-bar' },
+            ],
+        };
+    },
+};
 </script>
